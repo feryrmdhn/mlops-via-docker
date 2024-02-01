@@ -16,7 +16,7 @@ on:
         required: true
 #2
 env:
-  REGISTRY: "registry.digitalocean.com/dibimbing-mlops"
+  REGISTRY: "registry.digitalocean.com/dibimbing"
   IMAGE_NAME: "mlops"
 
 #3
