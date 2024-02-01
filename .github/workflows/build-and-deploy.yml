@@ -14,6 +14,10 @@ on:
       version:
         description: 'Image version'
         required: true
+      debug:
+        description: 'enable debug mode'
+        default: false
+        
 #2
 env:
   REGISTRY: "registry.digitalocean.com/dibimbing"
