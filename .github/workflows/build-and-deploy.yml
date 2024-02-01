@@ -17,7 +17,7 @@ on:
 #2
 env:
   REGISTRY: "registry.digitalocean.com/dibimbing-mlops"
-  IMAGE_NAME: "test-mlops"
+  IMAGE_NAME: "mlops"
 
 #3
 jobs:
