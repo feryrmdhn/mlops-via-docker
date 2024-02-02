@@ -14,7 +14,7 @@
     <li>Crate Image and change the name. Ex: docker_images</li>
     <li>Open terminal in droplets (Choose droplet -> Access -> Launch Droplet Console)</li>
     <li>Install Docker <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04">Here</a> just follow step 1 (step 2 optional)</li>
-    <li>Close droplet terminal and open open terminal in local device</li>
+    <li>Close droplet terminal and open terminal in local device</li>
     <li>Run <code>ssh root@ip_address_v4_droplets</code></li>
     <li>If success it will show mesage <i>Welcome to Ubuntu @version etc...</i></li>
     <li>Create dockerfile in root file code at Vscode or something that used</li>
