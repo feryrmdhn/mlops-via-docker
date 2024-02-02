@@ -17,7 +17,7 @@
     <li>If success it will show mesage <i>Welcome to Ubuntu @version etc...</i></li>
     <li>Create dockerfile in root file code at Vscode or something that used</li>
     <li>Create docker-compose.yml then connect your dockerfile inside (as my file code)</li>
-    <li>Setting the port anything you want. (my port is 8080)</li>
+    <li>Setting the port anything we want. (my port is 8080)</li>
     <li>Push your repository</li>
     <li>Back to terminal device and install docker compose <code>apt install docker-compose</code></li>
     <li>Clone the repository that want to build <code>git clone https://url_repository.git</code></li>
