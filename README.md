@@ -10,8 +10,6 @@
     <li>Check the ssh in root device <code>ls .ssh</code></li>
     <li>Copy public ssh <code>cat .ssh/id_rsa.pub | pbcopy</code> (Mac)</li>
     <li>Paste in SSH key in Droplets account that creating (can also use a password but I just use SSH)</li>
-    <li>Create Container registry</li>
-    <li>Crate Image and change the name. Ex: docker_images</li>
     <li>Open terminal in droplets (Choose droplet -> Access -> Launch Droplet Console)</li>
     <li>Install Docker <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04">Here</a> just follow step 1 (step 2 optional)</li>
     <li>Close droplet terminal and open terminal in local device</li>
