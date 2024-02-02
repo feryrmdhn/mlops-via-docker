@@ -27,6 +27,6 @@
     <li>Move to directory to <code>cd path/repository</code></li>
     <li>Run <code>docker-compose up -d --build</code></li>
     <li>If success the message show "done"</li>
-    <li>Visit url the project <i>http://ip_address_droplet:port</i></li>
+    <li>Visit url the project <i>http://ip_address_droplet:port/docs</i></li>
     <li>Deployment succesful</li>
 </ul>
