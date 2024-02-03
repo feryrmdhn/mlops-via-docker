@@ -21,7 +21,7 @@
     <li>Push your repository</li>
     <li>Back to terminal device and install docker compose <code>apt install docker-compose</code></li>
     <li>Clone the repository that want to build <code>git clone https://url_repository.git</code></li>
-    <li>Ensure docker is active <code>sudo systemcl status docker</code></li>
+    <li>Ensure docker is active <code>sudo systemctl status docker</code></li>
     <li>Move to directory to <code>cd path/repository</code></li>
     <li>Run <code>docker-compose up -d --build</code></li>
     <li>If success the message show "done"</li>
