@@ -34,3 +34,12 @@ Run into server without setup ci/cd
     <li>Deployment succesful</li>
     <li><code>exit</code> to exit from server</li>
 </ul>
+
+### Caution
+If you restart droplet, docker will automatically stop please do this :<br/>
+<ul>
+    <li>Ensure docker is active <code>sudo systemctl status docker</code></li>
+    <li>Check port running <code>docker ps</code></li>
+    <li>To run all port project <code>docker start</code></li>
+    <li>To run spesific project <code>docker start id_container</code></li>
+</ul>
