@@ -1,8 +1,10 @@
-# MLops Fastapi via Docker
+# MLops Fastapi Deployment
+
+Run into server without setup ci/cd
 
 ### Steps
 <ul>
-    <li>Create Digital Ocean Account</li>
+    <li>Create <strong>Digital Ocean</strong> Account</li>
     <li><i>The first User will get $200 free for 2 months, but just pay for the cheapest plan of $5 at the start</i></li>
     <li>Create Droplets</li>
     <li>Choose server location. Ex: Singapore</li>
@@ -11,6 +13,9 @@
     <li>Copy public ssh <code>cat .ssh/id_rsa.pub | pbcopy</code> (Mac)</li>
     <li>Paste in SSH key in Droplets account that creating (can also use a password but I just use SSH)</li>
     <li>Open terminal in droplets (Choose droplet -> Access -> Launch Droplet Console)</li>
+    <li>Check SSH must be same in local <strong>cd ~/.ssh</strong> then write <code>cat authorized_keys</code></li>
+    <li>If same continue to next step, but if not same copy SSH local and paste to <strong>authorized_keys</strong> in server</li>
+    <li>Back to root directory <code>cd ..</code></li>
     <li>Install Docker <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04">Here</a> just follow step 1 (step 2 optional)</li>
     <li>Close droplet terminal and open terminal in local device</li>
     <li>Run <code>ssh root@ip_address_v4_droplets</code></li>
@@ -27,4 +32,5 @@
     <li>If success the message show "done"</li>
     <li>Visit url the project <i>http://ip_address_droplet:port/docs</i></li>
     <li>Deployment succesful</li>
+    <li><code>exit</code> to exit from server</li>
 </ul>
